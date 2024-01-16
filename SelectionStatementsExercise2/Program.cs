@@ -5,9 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("What is your favorite subject in school?");
-            string userInput = Console.ReadLine();
-            string favSubject = userInput.ToLower();
-            switch (favSubject)
+            string favSubject = Console.ReadLine();
+            switch (favSubject.ToLower())
             {
                 case "english":
                     Console.WriteLine("You like books.");
